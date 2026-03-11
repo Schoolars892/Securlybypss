@@ -11,7 +11,7 @@ All of them are just single-file JS. No dependencies, no build step.
 
 ## How to use
 
-1. Open the file you want  
+1. Open the file you want  (Perferibly V1.1)
 2. Copy the entire code  
 3. In Safari: Add a new bookmark → paste into the URL field (starts with `javascript:`)  
 4. Save and tap it on any page to run
