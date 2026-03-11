@@ -1,0 +1,1 @@
+javascript:(function(){var u=prompt('Enter URL to load full (https://...)');if(!u)return;fetch('https://corsproxy.io/?'+encodeURIComponent(u)).then(r=>r.text()).then(t=>{document.open();document.write(t);document.close();}).catch(e=>alert('Failed: '+e.message));})();
