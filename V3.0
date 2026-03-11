@@ -1,0 +1,1 @@
+javascript:(function(){var u=prompt('Enter URL to load in frame (https://...)');if(u){var f=document.createElement('iframe');f.src=u;f.style='position:fixed;top:0;left:0;width:100%;height:100%;border:none;z-index:999999;';document.body.innerHTML='';document.body.appendChild(f);}})();
